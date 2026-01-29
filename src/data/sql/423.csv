@@ -1,0 +1,1 @@
+{"id": 423, "question": "在武汉注册的上市公司中，2020年营业总收入大于五亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%武汉%'  and 营业总收入 is not null and 营业总收入 > 500000"}

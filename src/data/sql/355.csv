@@ -1,0 +1,1 @@
+{"id": 355, "question": "2019年哪4家在上海注册的上市公司，营业外收入最高？金额是？", "sql": "SELECT 公司全称, 营业外收入 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%上海%'  AND 营业外收入 IS NOT NULL ORDER BY 营"}

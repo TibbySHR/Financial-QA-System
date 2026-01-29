@@ -1,0 +1,1 @@
+{"id": 42, "question": "2021年注册地址在杭州，有多少上市公司的净利润大于五亿？", "sql": " select count(1) from company_table where 年份 = '2021' and 注册地址 like '%杭州%'  and 净利润 is not null and 净利润 > 500000000  \n"}

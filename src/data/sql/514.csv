@@ -1,0 +1,1 @@
+{"id": 514, "question": "哪家上市公司2020年货币总额第2高？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2020' AND 货币资金 IS NOT NULL ORDER BY 货币资金 DESC LIMIT 1 OFFSET 1"}

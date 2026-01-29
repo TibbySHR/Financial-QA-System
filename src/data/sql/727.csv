@@ -1,0 +1,1 @@
+{"id": 727, "question": "在深圳注册的上市公司中，2021年负债总金额大于五亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2021' and 注册地址 like '%深圳%' and 负债合计 is not null and 负债合计 > 5000000"}

@@ -1,0 +1,1 @@
+{"id": 677, "question": "2019年其他非流动金融资产最高的上市公司为？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2019' AND 其他非流动资产 IS NOT NULL ORDER BY 其他非流动资产 DESC LIMIT 1"}

@@ -1,0 +1,17 @@
+CUDA_VISIBLE_DEVICES=1 python src/train_bash.py \
+    --stage sft \
+    --do_train \
+    --model_name_or_path /udata/LLM-FIN/data/pretrained_models/Qwen1.5-7B/ \
+    --dataset intent \
+    --template default \
+    --finetuning_type lora \
+    --lora_target q_proj,v_proj \
+    --output_dir saves/ckpt-7b/intent-v2/ \
+    --overwrite_cache \
+    --per_device_train_batch_size 4 \
+    --lr_scheduler_type cosine \
+    --logging_steps 10 \
+    --save_steps 20 \
+    --learning_rate 5e-5 \
+    --num_train_epochs 3 \
+    --plot_loss

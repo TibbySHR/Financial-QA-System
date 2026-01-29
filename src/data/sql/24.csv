@@ -1,0 +1,1 @@
+{"id": 24, "question": "哪家上市公司，2021年营业总收入最高？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2021' AND 营业总收入 IS NOT NULL ORDER BY 营业总收入 DESC LIMIT 1"}

@@ -1,0 +1,1 @@
+{"id": 436, "question": "注册地址在无锡的上市公司中，2019年营业利润最高的前3家是哪些上市公司？金额为？", "sql": "SELECT 公司全称, 营业利润 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%无锡%'  AND 营业利润 IS NOT NULL ORDER BY 营业利润"}

@@ -1,0 +1,1 @@
+{"id": 669, "question": "2020年其他流动资产第十二高的上市公司是哪家？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2020' AND 其他流动资产 IS NOT NULL ORDER BY 其他流动资产 DESC LIMIT 1 OFFSET 11"}

@@ -1,0 +1,1 @@
+{"id": 227, "question": "2020年注册地址在苏州哪四个上市公司的利润总额最高？金额是？", "sql": "SELECT 公司全称, 利润总额 FROM company_table WHERE 年份 = '2020' AND 注册地址 LIKE '%苏州%'  AND 利润总额 IS NOT NULL ORDER BY 利润总额 DESC LIMIT "}

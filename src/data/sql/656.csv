@@ -1,0 +1,1 @@
+{"id": 656, "question": "哪家在南京注册的上市公司，2021年负债总金额最高？金额是？", "sql": "SELECT 公司全称, 负债合计 FROM company_table WHERE 年份 = '2021' AND 注册地址 LIKE '%南京%'  AND 负债合计 IS NOT NULL ORDER BY 负债合计"}

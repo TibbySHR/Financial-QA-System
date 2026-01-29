@@ -1,0 +1,1 @@
+{"id": 879, "question": "在深圳注册的上市公司中，2019年营业总收入大于五亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2019' and 注册地址 like '%深圳%' and 营业总收入 is not null and 营业总收入 > 5000000"}

@@ -1,0 +1,1 @@
+{"id": 135, "question": "2019年利润总额最高并且曾经在杭州注册的上市公司是？金额是？", "sql": "SELECT 公司全称, 利润总额 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%杭州%'  AND 利润总额 IS NOT NULL ORDER BY 利润总额 DESC LIMIT "}

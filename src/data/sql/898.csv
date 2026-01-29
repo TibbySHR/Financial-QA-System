@@ -1,0 +1,1 @@
+{"id": 898, "question": "注册地址在武汉的上市公司中，2019年利润总额最高的前4家是哪些上市公司？金额为？", "sql": "SELECT 公司全称, 利润总额 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%武汉%'  AND 利润总额 IS NOT NULL ORDER BY 利润总额 DESC LIMIT "}

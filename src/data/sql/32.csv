@@ -1,0 +1,1 @@
+{"id": 32, "question": "在杭州注册的所有上市公司中，2020年总负债大于5亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%杭州%'  and 负债合计 is not null and 负债合计 > 500000"}

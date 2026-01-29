@@ -1,0 +1,1 @@
+{"id": 794, "question": "2019年总负债最高的4家上市公司是？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2019' AND 负债合计 IS NOT NULL ORDER BY 负债合计 DESC LIMIT 4"}

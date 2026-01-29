@@ -1,0 +1,1 @@
+{"id": 252, "question": "2020年哪四个上市公司的利润总额最高？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2020' AND 利润总额 IS NOT NULL ORDER BY 利润总额 DESC LIMIT 4"}

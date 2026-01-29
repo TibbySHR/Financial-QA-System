@@ -1,0 +1,1 @@
+{"id": 818, "question": "在西安注册的上市公司中，2020年其他流动资产最高的前三家上市公司是哪些家？金额为？", "sql": "SELECT 公司全称, 其他流动资产 FROM company_table WHERE 年份 = '2020' AND 注册地址 LIKE '%西安%'  AND 其他流动资产 IS NOT NULL ORDER BY 其他流动资产"}

@@ -1,0 +1,1 @@
+{"id": 913, "question": "2019年注册地址在青岛哪五个上市公司的流动资产最高？金额是？", "sql": "SELECT 公司全称, 流动资产合计 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%青岛%'  AND 流动资产合计 IS NOT NULL ORDER BY 流动资产合计"}

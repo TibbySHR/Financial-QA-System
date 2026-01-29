@@ -1,0 +1,1 @@
+{"id": 902, "question": "2021年货币总额最高的7家并且曾经在北京注册的上市公司是？金额是？", "sql": "SELECT 公司全称, 货币资金 FROM company_table WHERE 年份 = '2021' AND 注册地址 LIKE '%北京%'  AND 货币资金 IS NOT NULL ORDER BY 货币资金"}

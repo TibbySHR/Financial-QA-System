@@ -1,0 +1,1 @@
+{"id": 455, "question": "注册地址在天津的上市公司中，2021年其他非流动资产最高的前4家是哪些上市公司？金额为？", "sql": "SELECT 公司全称, 其他非流动资产 FROM company_table WHERE 年份 = '2021' AND 注册地址 LIKE '%天津%'  AND 其他非流动资产 IS NOT NULL ORDER BY 其他"}

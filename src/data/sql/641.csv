@@ -1,0 +1,1 @@
+{"id": 641, "question": "在宁波注册的所有上市公司中，2019年其他非流动金融资产最高的前7家上市公司为？金额为？", "sql": "SELECT 公司全称, 其他非流动资产 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%宁波%'  AND 其他非流动资产 IS NOT NULL ORDER BY 其他"}

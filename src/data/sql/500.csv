@@ -1,0 +1,1 @@
+{"id": 500, "question": "哪家上市公司，在重庆注册，2019年营业总收入最高？金额为？", "sql": "SELECT 公司全称, 营业总收入 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%重庆%'  AND 营业总收入 IS NOT NULL ORDER BY 营业总收入"}

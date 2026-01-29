@@ -1,0 +1,1 @@
+{"id": 276, "question": "曾经在深圳注册的上市公司，2019年货币总额大于5亿的公司有多少家？", "sql": " select count(1) from company_table where 年份 = '2019' and 注册地址 like '%深圳%'  and 货币资金 is not null and 货币资金 > 500000"}

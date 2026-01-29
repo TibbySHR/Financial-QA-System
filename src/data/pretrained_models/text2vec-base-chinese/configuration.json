@@ -1,0 +1,11 @@
+{
+    "framework": "pytorch",
+    "task": "sentence-embedding",
+    "pipeline": {
+        "type": "sentence-embedding"
+    },
+    "model": {
+        "type": "text2vec-base-chinese",
+        "language": "zh"
+    }
+}

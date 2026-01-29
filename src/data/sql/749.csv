@@ -1,0 +1,1 @@
+{"id": 749, "question": "注册地址在青岛的上市公司中，2020年资产总金额最高的前7家是哪些上市公司？金额为？", "sql": "SELECT 公司全称, 资产总计 FROM company_table WHERE 年份 = '2020' AND 注册地址 LIKE '%青岛%'  AND 资产总计 IS NOT NULL ORDER BY 资产总计"}

@@ -1,0 +1,1 @@
+{"id": 943, "question": "在南京注册的上市公司中，2021年营业成本最高的前七家上市公司是哪些家？金额为？", "sql": "SELECT 公司全称, 营业成本 FROM company_table WHERE 年份 = '2021' AND 注册地址 LIKE '%南京%'  AND 营业成本 IS NOT NULL ORDER BY 营业成本"}

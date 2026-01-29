@@ -1,0 +1,1 @@
+{"id": 93, "question": "注册地址在武汉的上市公司中，2019年利润总额大于5亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2019' and 注册地址 like '%武汉%'  and 利润总额 is not null and 利润总额 > 50000000"}

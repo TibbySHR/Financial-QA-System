@@ -1,0 +1,1 @@
+{"id": 218, "question": "2020年注册地址在青岛，有多少上市公司的资产总金额大于五亿？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%青岛%' and 资产总计 is not null and 资产总计 > 5000000"}

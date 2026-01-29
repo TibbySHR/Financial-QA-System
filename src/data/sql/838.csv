@@ -1,0 +1,1 @@
+{"id": 838, "question": "2019年营业成本最高的是哪家上市公司？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2019' AND 营业成本 IS NOT NULL ORDER BY 营业成本 DESC LIMIT 1"}

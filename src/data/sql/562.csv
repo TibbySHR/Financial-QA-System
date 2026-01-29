@@ -1,0 +1,1 @@
+{"id": 562, "question": "2019年营业利润最高的前3家是哪些上市公司？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2019' AND 营业利润 IS NOT NULL ORDER BY 营业利润 DESC LIMIT 3"}

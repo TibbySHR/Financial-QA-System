@@ -1,0 +1,1 @@
+{"id": 755, "question": "在南京注册的所有上市公司中，2021年营业成本大于5亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2021' and 注册地址 like '%南京%' and 营业成本 is not null and 营业成本 > 5000000"}

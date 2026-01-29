@@ -1,0 +1,1 @@
+{"id": 337, "question": "注册地址在南京的上市公司中，2021年其他非流动金融资产大于5亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2021' and 注册地址 like '%南京%' and 其他非流动金融资产 is not null and 其他非流动金融资产 > 500"}

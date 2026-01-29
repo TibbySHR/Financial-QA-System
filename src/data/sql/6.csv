@@ -1,0 +1,1 @@
+{"id": 6, "question": "注册地址在杭州的上市公司中，2021年流动资产最高的前5家是哪些上市公司？金额为？", "sql": "SELECT 公司全称, 流动资产合计 FROM company_table WHERE 年份 = '2021' AND 注册地址 LIKE '%杭州%'  AND 流动资产合计 IS NOT NULL ORDER BY 流动资产合计"}

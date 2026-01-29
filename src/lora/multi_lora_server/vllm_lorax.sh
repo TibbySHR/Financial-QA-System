@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=0,1 python -m vllm.entrypoints.openai.api_server \
+    --host 0.0.0.0 \
+    --port 8089 \
+    --model /udata/dingmin/LLaMA-Factory/models/Qwen1.5-7B/ \
+    --served-model-name Qwen1.5_7B \
+    --enable-lora \
+    --lora-modules intent=adapters/intent-v2  keywords=adapters/keywords-v3  nl2sql=adapters/nl2sql-v1 \
+    --gpu-memory-utilization 0.7 \
+    --trust-remote-code \
+    --tensor-parallel-size 2 \
+    --max-model-len 2560 \
+    --dtype=half

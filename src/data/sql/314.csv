@@ -1,0 +1,1 @@
+{"id": 314, "question": "2020年其他非流动资产最高并且历史注册地址在青岛的上市公司是？金额是？", "sql": "SELECT 公司全称, 其他非流动资产 FROM company_table WHERE 年份 = '2020' AND 注册地址 LIKE '%青岛%'  AND 其他非流动资产 IS NOT NULL ORDER BY 其他"}

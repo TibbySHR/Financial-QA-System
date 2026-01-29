@@ -1,0 +1,1 @@
+{"id": 456, "question": "2020年哪3家在宁波注册的上市公司，货币资金最高？金额是？", "sql": "SELECT 公司全称, 货币资金 FROM company_table WHERE 年份 = '2020' AND 注册地址 LIKE '%宁波%'  AND 货币资金 IS NOT NULL ORDER BY 货币资金"}

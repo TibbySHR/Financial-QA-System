@@ -1,0 +1,1 @@
+{"id": 376, "question": "注册地址在苏州的上市公司中，2020年利润总额大于5亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%苏州%'  and 利润总额 is not null and 利润总额 > 50000000"}

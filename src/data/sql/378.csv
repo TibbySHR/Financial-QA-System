@@ -1,0 +1,1 @@
+{"id": 378, "question": "2021年哪家上市公司的总资产最高？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2021' AND 资产总计 IS NOT NULL ORDER BY 资产总计 DESC LIMIT 1"}

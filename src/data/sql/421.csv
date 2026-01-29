@@ -1,0 +1,1 @@
+{"id": 421, "question": "曾经在苏州注册的上市公司，2020年其他非流动资产大于5亿的公司有多少家？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%苏州%'  and 其他非流动资产 is not null and 其他非流动资产 > 5000"}

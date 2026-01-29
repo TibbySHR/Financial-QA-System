@@ -1,0 +1,1 @@
+{"id": 131, "question": "注册地址在宁波的上市公司中，2020年营业收入大于5亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%宁波%' and 营业收入 is not null and 营业收入 > 5000000"}

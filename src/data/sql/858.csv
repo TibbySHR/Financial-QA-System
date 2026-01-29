@@ -1,0 +1,1 @@
+{"id": 858, "question": "哪7家上市公司2021年其他非流动金融资产最高？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2021' AND 其他非流动资产 IS NOT NULL ORDER BY 其他非流动资产 DESC LIMIT 7"}

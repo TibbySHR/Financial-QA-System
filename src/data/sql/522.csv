@@ -1,0 +1,1 @@
+{"id": 522, "question": "哪家上市公司2021年负债总金额第7高？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2021' AND 负债合计 IS NOT NULL ORDER BY 负债合计 DESC LIMIT 1 OFFSET 6"}

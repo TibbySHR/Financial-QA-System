@@ -1,0 +1,1 @@
+{"id": 574, "question": "曾经在北京注册的上市公司，2021年货币总额大于5亿的公司有多少家？", "sql": " select count(1) from company_table where 年份 = '2021' and 注册地址 like '%北京%'  and 货币资金 is not null and 货币资金 > 500000"}

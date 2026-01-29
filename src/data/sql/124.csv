@@ -1,0 +1,1 @@
+{"id": 124, "question": "在宁波注册的所有上市公司中，2020年货币资金大于5亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%宁波%' and 货币资金 is not null and 货币资金 > 5000000"}

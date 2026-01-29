@@ -1,0 +1,1 @@
+{"id": 640, "question": "2020年注册地址在西安，有多少上市公司的其他流动资产大于五亿？", "sql": " select count(1) from company_table where 年份 = '2020' and 注册地址 like '%西安%' and 其他流动资产 is not null and 其他流动资产 > 5000000"}

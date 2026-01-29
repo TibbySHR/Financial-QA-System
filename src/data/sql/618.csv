@@ -1,0 +1,1 @@
+{"id": 618, "question": "在青岛注册的上市公司中，2021年营业利润最高的前三家上市公司是哪些家？金额为？", "sql": "SELECT 公司全称, 营业利润 FROM company_table WHERE 年份 = '2021' AND 注册地址 LIKE '%青岛%'  AND 营业利润 IS NOT NULL ORDER BY 营业利润"}

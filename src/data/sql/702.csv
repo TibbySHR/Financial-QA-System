@@ -1,0 +1,1 @@
+{"id": 702, "question": "在苏州注册的上市公司中，2020年其他非流动资产最高的前四家上市公司是哪些家？金额为？", "sql": "SELECT 公司全称, 其他非流动资产 FROM company_table WHERE 年份 = '2020' AND 注册地址 LIKE '%苏州%'  AND 其他非流动资产 IS NOT NULL ORDER BY 其他"}

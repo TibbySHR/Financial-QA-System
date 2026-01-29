@@ -1,0 +1,1 @@
+{"id": 551, "question": "2019年哪七家上市公司，在深圳注册，货币总额最高？金额为？", "sql": "SELECT 公司全称, 货币资金 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%深圳%'  AND 货币资金 IS NOT NULL ORDER BY 货币资金"}

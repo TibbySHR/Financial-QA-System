@@ -1,0 +1,1 @@
+{"id": 223, "question": "2019年哪五个上市公司的流动资产最高？", "sql": "SELECT 公司全称 FROM company_table WHERE 年份 = '2019' AND 流动资产合计 IS NOT NULL ORDER BY 流动资产合计 DESC LIMIT 5"}

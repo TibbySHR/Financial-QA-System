@@ -1,0 +1,1 @@
+{"id": 585, "question": "2019年哪5家在天津注册的上市公司，营业总成本最高？金额是？", "sql": "SELECT 公司全称, 营业总成本 FROM company_table WHERE 年份 = '2019' AND 注册地址 LIKE '%天津%'  AND 营业总成本 IS NOT NULL ORDER BY 营"}

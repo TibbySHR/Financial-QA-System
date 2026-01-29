@@ -1,0 +1,1 @@
+{"id": 855, "question": "在西安注册的上市公司中，2021年资产总额大于五亿的有多少家？", "sql": " select count(1) from company_table where 年份 = '2021' and 注册地址 like '%西安%' and 资产总计 is not null and 资产总计 > 5000000"}
