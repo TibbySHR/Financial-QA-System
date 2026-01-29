@@ -39,7 +39,7 @@ Built an interactive Q&A system powered by LLMs to interpret and answer finance-
   "question": "For ICBC in 2019, what were the non-operating expenses and non-operating income (in CNY), respectively?",
   "answer": "ICBC’s non-operating expenses in 2019 were 12345678.9 CNY, and non-operating income was 2345678.9 CNY."
 }
-
+```
 ## Evaluation Metrics
 
 ### Evaluation Procedure
@@ -66,6 +66,7 @@ An evaluation item is structured as:
     "ICBC’s financial expense for 2019 was 12,345,678.9 CNY."
   ]
 }
+```
 
 ## Project Plan
 
@@ -132,7 +133,7 @@ flowchart LR
   linkStyle 12 stroke:#d73a49,stroke-width:2px;      %% NL2SQLMODELS -> NL2SQL
   linkStyle 13 stroke:#d73a49,stroke-width:2px;      %% NL2SQL -> GLM
 
-
+```
 ## Code Structure
 
 ## Repository Structure
